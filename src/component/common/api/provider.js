@@ -16,7 +16,7 @@ export function ProductProvider({ children }) {
     // const LocationId = process.env.REACT_APP_LOCATIONID;
 
     const companyId = 4;
-    const LocationId = 1;
+    const LocationId = 4;
 
     // Product
     const apiProducts = `${baseUrl}Product/GetAllProduct?CompanyID=${companyId}&ProductCategoryId=0&ProductTypeId=0&ProductBrandId=0`;
